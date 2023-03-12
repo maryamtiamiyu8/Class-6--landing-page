@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: monospace; */
+    
+}
+
+.container{
+    background-color: pink;
+    height: 100vh;
+    width: 100vw;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.back{
+    width: 75vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.card{
+    background-color: white;
+    width: 65vw;
+    height: 65vh;
+    display: flex;
+    border-radius: 5px;
+}
+
+.left-div{
+    width: 60%;
+    height: 100%; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.right-div{
+    width: 40%;
+    height: 100%; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    display: grid;
+   grid-gap: 10px;
+}
+
+.text-1{
+    color: purple;
+    font-size: xxx-large;
+    font-weight: 600;
+    font-family: lucida calligraphy;
+}
+
+.text-2{
+    color: purple;
+    font-size: 50px;
+    font-family: calibri light;
+}
+
+.text-3{
+    color: deeppink;
+    font-size: 25px;
+    font-family: Brush Script MT;
+}
+
+.button{
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+    border-color: deeppink; 
+    background-color: deeppink;
+    font-size: 15px;
+    color: white;
+    font-family: Brush Script MT;
+}
+
+.Shopping{
+    /* width: 100%;  */
+    /* height: 100%; */
+}
